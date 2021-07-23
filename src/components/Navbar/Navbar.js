@@ -33,9 +33,17 @@ export default function Navbar() {
             About <AiOutlineUser className={styles.icons} />
           </li>
         </NavLink>
-        <li>
-          Portfolio <BiBriefcase className={styles.icons} />
-        </li>
+        <NavLink
+          to="/portfolio"
+          activeStyle={{
+            color: "#1ff5dd",
+          }}
+          exact
+        >
+          <li>
+            Portfolio <BiBriefcase className={styles.icons} />
+          </li>
+        </NavLink>
         <li>
           Contact <FiMail className={styles.icons} />
         </li>

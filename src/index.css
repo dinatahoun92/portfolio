@@ -13,6 +13,7 @@ body {
 .App {
   display: flex;
   position: relative;
+  min-width: 100vw;
 }
 .button {
   background-color: transparent;
@@ -31,4 +32,7 @@ body {
   background-color: #1ff5dd;
   color: #3a3e44;
   font-weight: bold;
+}
+.images {
+  display: flex;
 }
