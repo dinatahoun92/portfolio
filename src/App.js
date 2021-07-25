@@ -24,7 +24,7 @@ function App() {
     <AlertProvider template={AlertTemplate} {...options}>
       <Router>
         <div className="App">
-          {/* <AnimatedCursor innerSize={8} outerSize={20} color="41,245,212" /> */}
+          <AnimatedCursor innerSize={8} outerSize={20} color="41,245,212" />
 
           <Navbar />
           <Switch>
