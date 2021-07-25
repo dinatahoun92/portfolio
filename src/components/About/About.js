@@ -18,7 +18,7 @@ export default function About() {
         </h1>
 
         <p className={styles.about}>
-          My name is<span> Dina Tahoun</span>, and I’m a front-end developer
+          My name is<span> Dina Tahoun</span> , and I’m a front-end developer
           based in Egypt. I currently work as a freelance front-end developer.
           Also, I work as a mentor and reviewer for UX design Udacity
           Nanodegree, and Intermediate JavaScript Udacity Nanodegree. As Well as
@@ -41,6 +41,8 @@ export default function About() {
             <li>Redux</li>
             <li>SASS</li>
             <li>GIT</li>
+            <li>Firebase</li>
+            <li>Gulp</li>
             <li>Adobe photoshop</li>
             <li>Figma</li>
           </ul>
