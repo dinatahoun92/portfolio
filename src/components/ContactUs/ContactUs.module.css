@@ -39,7 +39,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
   margin-top: 10px;
 }
 .form textarea,
@@ -57,13 +57,22 @@
 .form textarea {
   height: 120px;
 }
-
+.container {
+  display: flex;
+}
 .form input[type="submit"] {
   cursor: pointer;
   width: 150px;
   border-radius: 30px;
   font-size: 14px;
   border-width: 2px;
+}
+.contactImg {
+  max-width: 30%;
+  margin-right: 5%;
+}
+.left {
+  width: 65%;
 }
 @media screen and (max-width: 1000px) {
   .main {
@@ -72,6 +81,12 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .contactImg {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
   .main {
     width: calc(100% - 45px);
     margin-left: 45px;
