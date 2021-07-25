@@ -1,9 +1,12 @@
 .main {
   display: flex;
   justify-items: center;
-  width: 80%;
+  width: calc(100% - 120px);
   margin: auto;
-  padding-bottom: 80px;
+  padding-left: 40px;
+  margin-left: 120px;
+  flex-direction: row;
+  padding-bottom: 100px;
 }
 .img {
   width: 270px;
@@ -34,6 +37,7 @@
 }
 .imgContainer {
   width: 35%;
+  display: flex;
 }
 .side {
   width: 35%;
@@ -101,6 +105,12 @@
     width: calc(90% - 120px);
   }
 }
+@media screen and (max-width: 1000px) {
+  .main {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+  }
+}
 @media screen and (max-width: 900px) {
   .imgContainer {
     display: none;
@@ -128,5 +138,11 @@
   }
   .skills {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    width: calc(100% - 45px);
+    margin-left: 45px;
   }
 }
