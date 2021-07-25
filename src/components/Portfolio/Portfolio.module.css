@@ -1,9 +1,12 @@
 .main {
   display: flex;
   justify-items: center;
-  width: 80%;
+  width: calc(100% - 120px);
   margin: auto;
   flex-direction: column;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  margin-left: 120px;
 }
 .title {
   color: #fff;
@@ -37,10 +40,11 @@
   border-radius: 50%;
 }
 .imgWrap {
+  box-sizing: border-box;
   border-radius: 50%;
-  width: 30vh;
-  margin: 1.5vh;
-  height: 30vh;
+  width: 17vw;
+  margin: 1.5vw;
+  height: 17vw;
   padding: 5px;
   background: linear-gradient(45deg, #298d82, #1ff5dd, #1ff5dd, #298d82);
   background-size: 100% 100%;
@@ -55,9 +59,7 @@
   background: linear-gradient(-45deg, #298d82, #1ff5dd, #1ff5dd, #298d82);
   cursor: pointer;
 }
-.imgContainer {
-  width: 24%;
-}
+
 .images {
   display: flex;
   flex-wrap: wrap;
@@ -86,6 +88,8 @@
   cursor: pointer;
   opacity: 0.7;
   margin-bottom: 20px;
+  margin-top: 30px;
+  display: block;
 }
 .icon:hover {
   opacity: 1;
@@ -94,7 +98,7 @@
   width: 50%;
 }
 .right {
-  width: 50%;
+  width: 40%;
 }
 .skill {
   padding: 10px;
@@ -118,4 +122,30 @@
 }
 a.text:hover {
   color: #1ff5dd;
+}
+@media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+  .left,
+  .right {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    padding-left: 10px;
+  }
+  .imgWrap {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 40vw;
+    margin: 1.5vw;
+    height: 40vw;
+  }
+  .main {
+    width: calc(100% - 45px);
+    margin-left: 45px;
+    padding-left: 50px;
+  }
 }

@@ -87,7 +87,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  img {
+  .img {
     width: 200px !important;
     height: 200px !important;
     margin: 10px !important;

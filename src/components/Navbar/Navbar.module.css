@@ -2,6 +2,10 @@ nav {
   width: 120px;
   background-color: #222;
   min-height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
 }
 nav ul {
   margin: 0;
