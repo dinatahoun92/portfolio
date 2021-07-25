@@ -7,7 +7,7 @@ export default function Portfolio() {
   const [portfolio, setPortfolio] = useState(0);
   const [projects, setProjects] = useState([
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/1.PNG",
+      img: "/imgs/1.PNG",
       skills: ["HTML", "CSS", "JS"],
       name: "Scout Exports",
       url: "https://scoutexport.com/",
@@ -17,7 +17,7 @@ export default function Portfolio() {
       date: "2019",
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/2.PNG",
+      img: "/imgs/2.PNG",
       contribution: [
         "100% PSD to React.js",
         "80% of the functionlity",
@@ -31,7 +31,7 @@ export default function Portfolio() {
       desc: "While working in apps square company , I was given the task to convert this website from PSD to react.js website and implementing it's functionlity",
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/3.PNG",
+      img: "/imgs/3.PNG",
       skills: ["ٌReact Hooks", "Redux", "Firebase", "building dashboard"],
       desc: "AdobeXD to React hooks and created dashboard using firebase",
       name: "Mediator",
@@ -48,7 +48,7 @@ export default function Portfolio() {
       ],
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/4.PNG",
+      img: "/imgs/4.PNG",
       skills: ["Bootstrap", "HTML", "JS", "JQuery", "CSS"],
       name: "Academic Waha",
       url: "https://demo.al-wac.com/",
@@ -58,7 +58,7 @@ export default function Portfolio() {
       contribution: ["80% creating HTML/CSS/JS web pages", "0% PHP"],
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/5.PNG",
+      img: "/imgs/5.PNG",
       skills: ["React.js", "Redux"],
       resources: ["IDE (integrated development environment)", "JavaScript"],
       date: "2019",
@@ -73,7 +73,7 @@ export default function Portfolio() {
       ],
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/6.PNG",
+      img: "/imgs/6.PNG",
       skills: ["UI design", "HTML", "CSS", "SASS", "Gulp"],
       name: "Startup",
       url: "https://dinatahoun92.github.io/startup/",
@@ -83,7 +83,7 @@ export default function Portfolio() {
       contribution: ["100% UI design", "100% creating static pages"],
     },
     {
-      img: "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/7.PNG",
+      img: "/imgs/7.PNG",
       skills: ["UI design", "HTML", "CSS", "SASS"],
       desc: "UI design and converting it to s atatic website",
       name: "Agency",
@@ -176,12 +176,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/1.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/1.PNG"} className={styles.img} />
           </div>
         </div>
         <div
@@ -192,12 +187,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/2.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/2.PNG"} className={styles.img} />
           </div>
         </div>
         <div
@@ -208,12 +198,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/3.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/3.PNG"} className={styles.img} />
           </div>
         </div>
 
@@ -225,12 +210,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/4.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/4.PNG"} className={styles.img} />
           </div>
         </div>
 
@@ -243,12 +223,7 @@ export default function Portfolio() {
         >
           <div>
             <div className={styles.imgWrap}>
-              <img
-                src={
-                  "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/5.PNG"
-                }
-                className={styles.img}
-              />
+              <img src={"/imgs/5.PNG"} className={styles.img} />
             </div>
           </div>
         </div>
@@ -261,12 +236,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/6.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/6.PNG"} className={styles.img} />
           </div>
         </div>
 
@@ -278,12 +248,7 @@ export default function Portfolio() {
           }}
         >
           <div className={styles.imgWrap}>
-            <img
-              src={
-                "https://raw.githubusercontent.com/dinatahoun92/portfolio/main/public/imgs/7.PNG"
-              }
-              className={styles.img}
-            />
+            <img src={"/imgs/7.PNG"} className={styles.img} />
           </div>
         </div>
       </div>
