@@ -135,16 +135,22 @@ export default function Portfolio() {
             {projects[portfolio].url}
           </a>
           <h4 className={styles.sub}>Skills:</h4>
-          {projects[portfolio].skills.map((item) => (
-            <span className={styles.skill}>{item}</span>
+          {projects[portfolio].skills.map((item, i) => (
+            <span className={styles.skill} key={i}>
+              {item}
+            </span>
           ))}
           <h4 className={styles.sub}>Contribution:</h4>
-          {projects[portfolio].contribution.map((item) => (
-            <span className={styles.skill}>{item}</span>
+          {projects[portfolio].contribution.map((item, i) => (
+            <span className={styles.skill} key={"skill" + i}>
+              {item}
+            </span>
           ))}
           <h4 className={styles.sub}>Resources:</h4>
-          {projects[portfolio].resources.map((item) => (
-            <span className={styles.skill}>{item}</span>
+          {projects[portfolio].resources.map((item, i) => (
+            <span className={styles.skill} key={"resource" + i}>
+              {item}
+            </span>
           ))}
           <h4 className={styles.sub}>Finish Date:</h4>
           <p className={styles.text}>{projects[portfolio].date}</p>
