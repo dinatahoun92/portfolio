@@ -44,9 +44,17 @@ export default function Navbar() {
             Portfolio <BiBriefcase className={styles.icons} />
           </li>
         </NavLink>
-        <li>
-          Contact <FiMail className={styles.icons} />
-        </li>
+        <NavLink
+          to="/contact"
+          activeStyle={{
+            color: "#1ff5dd",
+          }}
+          exact
+        >
+          <li>
+            Contact <FiMail className={styles.icons} />
+          </li>
+        </NavLink>
       </ul>
     </nav>
   );
