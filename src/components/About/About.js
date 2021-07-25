@@ -25,7 +25,7 @@ export default function About() {
           being a tutor for front-end web development professional track for FWD
           scholarship partnered with Udacity and sponsored by The Egyptian
           Ministry of Communications and Information Technology (MCIT).I have
-          100% success score on Upwork. My passion for web development starts
+          100% success score on Upwork. My passion for web development started
           when I was a graphic designer and I have some tasks of creating a
           webdesign. I liked it so much that I didn't want it to stop there, I
           wanted to know how to build a website from start to finish.
