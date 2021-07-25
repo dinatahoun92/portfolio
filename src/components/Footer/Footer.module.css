@@ -4,10 +4,10 @@ footer {
   display: flex;
   position: absolute;
   bottom: 10px;
-  width: calc(100% - 150px);
+  width: calc(100% - 120px);
   justify-content: center;
   flex-direction: column;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 footer ul {
   padding: 0;
@@ -38,4 +38,16 @@ footer p {
   font-size: 14px;
   letter-spacing: 2px;
   margin-top: 7px;
+}
+@media screen and (max-width: 1000px) {
+  footer {
+    width: calc(100% -100px);
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer {
+    width: calc(100% - 45px);
+    margin-left: 45px;
+  }
 }

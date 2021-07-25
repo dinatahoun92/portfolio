@@ -19,7 +19,8 @@ export default function Navbar() {
           exact
         >
           <li>
-            Home <BiHomeAlt className={styles.icons} />
+            <span>Home</span>
+            <BiHomeAlt className={styles.icons} />
           </li>
         </NavLink>
         <NavLink
@@ -30,7 +31,8 @@ export default function Navbar() {
           exact
         >
           <li>
-            About <AiOutlineUser className={styles.icons} />
+            <span>About</span>
+            <AiOutlineUser className={styles.icons} />
           </li>
         </NavLink>
         <NavLink
@@ -41,7 +43,8 @@ export default function Navbar() {
           exact
         >
           <li>
-            Portfolio <BiBriefcase className={styles.icons} />
+            <span>Portfolio</span>
+            <BiBriefcase className={styles.icons} />
           </li>
         </NavLink>
         <NavLink
@@ -52,7 +55,8 @@ export default function Navbar() {
           exact
         >
           <li>
-            Contact <FiMail className={styles.icons} />
+            <span>Contact</span>
+            <FiMail className={styles.icons} />
           </li>
         </NavLink>
       </ul>

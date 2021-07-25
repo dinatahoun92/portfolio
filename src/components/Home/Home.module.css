@@ -67,3 +67,25 @@
     background-position: 0% 50%;
   }
 }
+@media screen and (max-width: 900px) {
+  .imgContainer {
+    display: none;
+  }
+  .main {
+    width: calc(90% - 70px);
+  }
+  .side {
+    width: 100%;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .about {
+    font-size: 14px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+}

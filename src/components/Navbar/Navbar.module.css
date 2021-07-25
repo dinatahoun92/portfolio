@@ -1,5 +1,5 @@
 nav {
-  width: 150px;
+  width: 120px;
   background-color: #222;
   min-height: 100vh;
 }
@@ -48,4 +48,23 @@ nav a {
 }
 .dt:hover {
   color: #222;
+}
+@media screen and (max-width: 1000px) {
+  nav {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  nav {
+    width: 45px;
+  }
+  nav ul li span {
+    display: none;
+  }
+  nav .dt {
+    font-size: 14px;
+  }
+  nav .icons {
+    font-size: 20px;
+  }
 }
