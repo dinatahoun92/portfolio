@@ -148,4 +148,12 @@ a.text:hover {
     margin-left: 45px;
     padding-left: 50px;
   }
+  .title {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    margin-top: 40px;
+  }
 }
